@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "jost";
+  src: url("../font/Jost-800-HeavyItalic.ttf") format("truetype");
+}
+#background {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div,
+body {
+  margin: 0;
+}
+.hidden {
+  display: none;
+}
+.login-form,
+.button {
+  height: 50px;
+}
+h1 {
+  margin: 0;
+  font-family: "jost";
+  font-size: 100px;
+}
+li {
+  margin: 0;
+  font-family: "jost";
+  font-size: 30px;
+  color: black;
+}
+#innerbox {
+  background-color: white;
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+  border: 2px solid black;
+}
+span {
+  font-family: "jost";
+  font-size: 15px;
+}
